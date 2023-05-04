@@ -124,9 +124,9 @@
 @media(max-width: 576px,){
 
     .Lista_Navegación a{
-        padding: 20px;
+        padding: 30px 5px;
         font-size: 30px;
-        gap: 20px;
+        gap: 20;
     }
 
     .Usuarios_Beneficiados p{
