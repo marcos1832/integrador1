@@ -141,6 +141,7 @@ main{
 }
 
 .info_Section p{
+    padding: 40px 0;
     font-size: 14px;
     width: 70%;
     color: black;
@@ -190,6 +191,7 @@ main{
 }
 
 .Usuarios_Beneficiados p{
+    padding: 40px 0;
     text-align: center;  /* aca centre*/
     font-size: 14px;
     width: 70%;
