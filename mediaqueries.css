@@ -1,0 +1,157 @@
+@media (max-width: 992px){
+
+    main{
+        width: 80%;
+    }
+    .Barra_de_Navegación{
+        gap: 10px;
+    }
+
+    .Lista_Navegación{ 
+        position: absolute;
+        top: 65px;
+        left: 1%;
+        width: 98%;
+        right: 1%;
+        flex-direction: column;
+        background-color: var(--background);
+        border: 2px solid #000080;
+        border-top: 0px;
+        border-radius: 0px  0px 15px 15px;
+        padding: 30px 20px;
+        z-index: 2;
+        display: none;
+    }
+
+    .Lista_Navegación a{
+        font-size: 20px;
+    }
+
+    .Barra_de_Navegación img{
+        display: flex;
+    }
+    .menu_nav{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+ 
+    #menu_toggle:checked +
+    .Lista_Navegación{
+        display: flex;
+    }
+
+    .info_Section{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info_Section h1{ 
+        margin-top: 10%;
+        margin-left: 30%;
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+    .info_Section p{
+        margin-top: 10%;
+        font-size: 26px;
+        margin-left: 35%;
+        width: 60%;
+        max-width: 600px;
+
+    }
+
+    .imagen_de_inicio img{
+        display: none;
+    }
+    .Usuarios_Beneficiados{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Usuarios_Beneficiados h3{
+        margin-top: 2px;
+        margin-left: 30%;
+        text-align: center;
+        width: 100%;
+        max-width: 700px;
+        min-width: unset;
+    }
+    .Usuarios_Beneficiados p{
+        font-size: 26px;
+        margin-left: 30%;
+        width: 70%;
+        max-width: 200px;
+    }
+    .Usuarios_Beneficiados a{
+        margin-left: 25%;
+        font-size: 20px;
+    }
+
+    .Diseño_Tortas h2{
+        font-size: 50px;
+        margin-left: 10%;
+        text-align: center;
+        width: 80%;
+        max-width: 900px;
+        min-width: unset;
+    }
+
+    .container_Product{
+        margin-left: 18%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-2{
+        margin-left: 43%;
+        align-items: center;
+    }
+    footer{
+        position: static;
+    }
+
+}
+
+@media(max-width: 576px,){
+
+    .Lista_Navegación a{
+        font-size: 30px;
+        gap: 20px;
+    }
+
+    .Usuarios_Beneficiados p{
+        font-size: 26px;
+        width: 50%;
+        max-width: unset;
+    }
+
+    .container_Product{
+        width: 70%;
+    }
+    .product{
+        width: 46.5%;
+    }
+   
+}
+
+    /* Responsive Celular*/
+
+
+
+  
+
+
+
+
+
+
