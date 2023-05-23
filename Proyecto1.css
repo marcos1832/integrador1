@@ -29,9 +29,7 @@
 
 }
 
-body{
-    width: 100%;
-}
+
 
 
 header{
@@ -192,7 +190,7 @@ main{
 
 .Usuarios_Beneficiados p{
     padding: 40px 0;
-    text-align: center;  /* aca centre*/
+    text-align: center;  
     font-size: 14px;
     width: 70%;
     min-width: 900px;
