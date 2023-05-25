@@ -72,7 +72,7 @@ header{
 }
 
 .Lista_Navegación a{
-    font-weight: 520;
+    font-weight: 517;
     color: black;
 }
 
@@ -267,7 +267,7 @@ main{
     font-weight: 800;
     border-radius: 20px;
     padding: 10px 10px;
-    background-color: var(--color-5);
+    background-color: rgba(255, 255, 0, 0.811);
 }
 
 .product p,span{
@@ -290,7 +290,7 @@ main{
 .btn-2{
     border-radius: 20px;
     padding: 10px 10px;
-    background-color: var(--color-5);
+    background-color: rgba(255, 255, 0, 0.811);
     font-weight: 800;
 }
 
