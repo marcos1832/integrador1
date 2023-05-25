@@ -13,7 +13,7 @@
     --color-2:#FAFAD2;
     --color-3:#F08080;
     --color-4:#FF1493;
-    --color-5:#DC143C;
+    --color-5: yellowgreen;
     --color-6:#D2691E;
 
 
@@ -267,7 +267,7 @@ main{
     font-weight: 800;
     border-radius: 20px;
     padding: 10px 10px;
-    background-color: #DC143C;
+    background-color: var(--color-5);
 }
 
 .product p,span{
@@ -290,7 +290,7 @@ main{
 .btn-2{
     border-radius: 20px;
     padding: 10px 10px;
-    background-color: #DC143C;;
+    background-color: var(--color-5);
     font-weight: 800;
 }
 
